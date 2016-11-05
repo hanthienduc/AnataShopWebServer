@@ -1,0 +1,85 @@
+
+<?php include("config.php") ?>
+<div class="side-menu sidebar-inverse">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="side-menu-container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <div class="icon fa fa-paper-plane"></div>
+                                <div class="title">Anata Shop</div>
+                            </a>
+                            <button type="button" class="navbar-expand-toggle pull-right visible-xs">
+                                <i class="fa fa-times icon"></i>
+                            </button>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.php">
+                                    <span class="icon fa fa-tachometer"></span><span class="title">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="panel panel-default dropdown">
+                                <a data-toggle="collapse" href="#dropdown-element">
+                                    <span class="icon fa fa-desktop"></span><span class="title">Quản lý</span>
+                                </a>
+                                <!-- Dropdown level 1 -->
+                                <div id="dropdown-element" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="product_template.php?page=loaisanpham">Loại sản phẩm</a>
+                                            </li>
+                                            <li><a href="product_template.php?page=sanpham">Sản phẩm</a>
+                                            </li>
+                                            <li><a href="product_template.php?page=thuonghieu">Thương hiệu</a>
+                                            </li>
+                                            <li><a href="product_template.php?page=khuyenmai">Khuyến mãi</a>
+                                            </li>
+                                            <li><a href="product_template.php?page=nguoidung">Người dùng</a>
+                                            </li>
+                                            <li><a href="product_template.php?page=hoadon">Hóa đơn</a>
+                                            </li>
+                                            <li><a href="product_template.php?page=danhgia">đánh giá</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="panel panel-default dropdown">
+                                <a data-toggle="collapse" href="#dropdown-example">
+                                    <span class="icon fa fa-slack"></span><span class="title">Page Example</span>
+                                </a>
+                                <!-- Dropdown level 1 -->
+                                <div id="dropdown-example" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="pages/login.html">Login</a>
+                                            </li>
+                                            <li><a href="pages/index.html">Landing Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Dropdown-->
+                            <li class="panel panel-default dropdown">
+                                <a data-toggle="collapse" href="#dropdown-icon">
+                                    <span class="icon fa fa-archive"></span><span class="title">Icons</span>
+                                </a>
+                                <!-- Dropdown level 1 -->
+                                <div id="dropdown-icon" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="icons/glyphicons.html">Glyphicons</a>
+                                            </li>
+                                            <li><a href="icons/font-awesome.html">Font Awesomes</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+</div>
